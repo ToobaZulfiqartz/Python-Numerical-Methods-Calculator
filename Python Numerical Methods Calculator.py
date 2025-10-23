@@ -229,5 +229,3 @@ b1=Button(window, text="Submit", fg="black", bg="#C1A47A", command=result)
 b1.grid(column=3, row=15, sticky=W, padx=15, pady=5)
 
 window.mainloop()
-
-
