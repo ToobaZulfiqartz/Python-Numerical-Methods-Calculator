@@ -8,19 +8,19 @@ window.configure(bg="black")
 Label(window, text="Physics Equation Solver", font=("Arial", 14, "bold"), fg="black", bg="white").grid(row=2, column=1,sticky="w", pady=5)
 
 # --- Choose Method ---
-Label(window, text="1. Choose a Method", font=("Arial", 12, "bold"), fg="black", bg="white").grid(row=4, column=1, sticky="w", pady=5)
+Label(window, text="1. Choose a Method", font=("Arial", 12, "bold"), fg="black", bg="white").grid(row=4, column=0, sticky="w", pady=5)
 
 #Button Method
 userchoice = StringVar()
 
 b1 =Button(window, text="1. Bracket Method", command=lambda: userchoice.set("Bracket"))
-b1.grid(column=1, row=5, sticky=W, padx=15, pady=5)
+b1.grid(column=0, row=5, sticky=W, padx=15, pady=5)
 b2 =Button(window, text="2. False Method", command=lambda: userchoice.set("False"))
-b2.grid(column=1, row=6, sticky=W, padx=15, pady=5)
+b2.grid(column=0, row=6, sticky=W, padx=15, pady=5)
 b3 =Button(window, text="3. Rapphson Newton Method", command=lambda: userchoice.set("Newton"))
-b3.grid(column=1, row=7, sticky=W, padx=15, pady=5)
+b3.grid(column=0, row=7, sticky=W, padx=15, pady=5)
 b4 =Button(window, text="4. Secant Method", command=lambda: userchoice.set("Seacant"))
-b4.grid(column=1, row=8, sticky=W, padx=15, pady=5)
+b4.grid(column=0, row=8, sticky=W, padx=15, pady=5)
 
 Label(window, text="2. Choose an Equation and put values", font=("Arial", 12, "bold"), fg="black", bg="white").grid(row=9, column=1, sticky="w", pady=5)
 # Radio Buttons
@@ -287,3 +287,4 @@ def result():
         
 # Start the main loop
 window.mainloop()
+
