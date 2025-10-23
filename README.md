@@ -16,3 +16,4 @@ This project is a Python-based calculator that allows users to solve equations u
 
 **Author:Tooba Zulfiqar**
 
+**Note:**For code you can click on attached Numerical Methods Calculator.py file
