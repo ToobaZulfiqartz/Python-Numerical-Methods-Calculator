@@ -8,10 +8,10 @@ Features
 - User can choose a method and equation type.
 - Inputs constants and values.
 - Produces accurate results for each selected method.
+- Plots graphs to visualize the calculated results.
 - Developed as part of the Computational Physics course.
 
 Tools Used
-- Python (Tkinter for GUI)
-- OriginPro and Excel for data analysis and visualization
+- Python (numpy, matplotlib, and Tkinter for GUI)
 
 Author:Tooba Zulfiqar
