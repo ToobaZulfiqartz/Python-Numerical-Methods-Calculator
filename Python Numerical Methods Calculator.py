@@ -22,7 +22,7 @@ b3.grid(column=0, row=7, sticky=W, padx=15, pady=5)
 b4 =Button(window, text="4. Secant Method", command=lambda: userchoice.set("Seacant"))
 b4.grid(column=0, row=8, sticky=W, padx=15, pady=5)
 
-Label(window, text="2. Choose an Equation and put values", font=("Arial", 12, "bold"), fg="black", bg="white").grid(row=9, column=1, sticky="w", pady=5)
+Label(window, text="2. Choose an Equation and put values", font=("Arial", 12, "bold"), fg="black", bg="white").grid(row=9, column=0, sticky="w", pady=5)
 # Radio Buttons
 # 1
 value_radio = StringVar()
@@ -287,4 +287,5 @@ def result():
         
 # Start the main loop
 window.mainloop()
+
 
